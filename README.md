@@ -16,9 +16,6 @@ Key features of this project include:
 
 The provided Python code implements a Flask web application to serve data from a CSV file named `cropmetrics.csv`. It uses the `Flask` framework and the `pandas` library.
 
-![Capture d'écran 2024-01-08 221728](https://github.com/user-attachments/assets/df56c42f-1f4b-4bf7-afff-4cfe0a076260)
-
-
 - Loads CSV into DataFrame (`df`) using `pd.read_csv`.
 - Defines an endpoint (`/get_data`) accessible via HTTP GET requests.
 - Returns data in batches of 5 rows.
